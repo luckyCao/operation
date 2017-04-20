@@ -1,0 +1,28 @@
+{
+  "presets": [
+    "es2015",
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-runtime",
+    "transform-decorators-legacy",
+    "syntax-export-extensions",
+    "transform-async-to-generator"
+  ],
+  "env": {
+    "development": {
+      "presets": ["react-hmre"],
+      "plugins": [["react-transform", {
+        "transforms": [{
+          "transform": "react-transform-hmr",
+          "imports": ["react"],
+          "locals": ["module"]
+        }, {
+          "transform": "react-transform-catch-errors",
+          "imports": ["react", "redbox-react"]
+        }]
+      }]]
+    }
+  }
+}

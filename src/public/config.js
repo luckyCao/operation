@@ -1,0 +1,2 @@
+const dataSource = [{"name":"Background","props":{"image":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1492579314964&di=49e6abe2809e71293afd013105adbe2a&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fitem%2F201509%2F13%2F20150913123656_8KYzt.thumb.700_0.jpeg"}},{"name":"Lottery","props":{"content":"qqq","left":"100","top":"140"}}]
+export default dataSource

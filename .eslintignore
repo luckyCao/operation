@@ -1,0 +1,9 @@
+**/dist/**
+**/node_modules/**
+**/server.js
+**/webpack.config*.js
+**/webpack.deploy*.js
+**/utils/**
+**/src/controller/**
+**/src/db/**
+
